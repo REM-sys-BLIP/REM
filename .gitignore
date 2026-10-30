@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# 编辑器 / IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境与密钥（务必不要提交）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# 日志与临时文件
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+out/
+target/
+bin/
+obj/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+vendor/
+*.egg-info/
+
+# 压缩包
+*.zip
+*.tar
+*.tar.gz
+*.7z
